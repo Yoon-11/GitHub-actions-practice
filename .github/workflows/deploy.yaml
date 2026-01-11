@@ -27,6 +27,6 @@ jobs:
           echo "Nice"
 
       - name: Github Actions 자체에 내장되어 있는 변수 사용해보기
-        run:
+        run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
